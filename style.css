@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    background: lightblue;
+}
+
 /* HEADER STYLE START */
 header {
     display: flex;
@@ -52,6 +56,21 @@ header nav ul li {
 /* BANNER STYLE END */
 
 /* ABOUT ME STYLE START */
+section { 
+    display: flex;
+    border: 3px solid teal;
+    margin: 20px;
+}
+
+.container {
+    margin: 20px;
+    padding-right: 10px;
+    border-right: 3px solid teal;
+}
+
+article {
+    margin: 40px 20px;
+}
 /* ABOUT ME STYLE END */
 
 /* WORK STYLE START */
