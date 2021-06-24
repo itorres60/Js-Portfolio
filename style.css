@@ -32,6 +32,23 @@ header nav ul li {
 /* HEADER STYLE END*/
 
 /* BANNER STYLE START */
+.banner-container{
+    border: solid 2px black;
+    height: 200px;
+    background-image: url(/Assets/Images/banner.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-container h1 {
+    background: teal;
+    color: white;
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 /* BANNER STYLE END */
 
 /* ABOUT ME STYLE START */
