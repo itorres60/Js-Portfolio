@@ -1,5 +1,5 @@
 # Js-Portfolio
-A portfolio of web projects developed throughout my coding career.
+A portfolio of web projects developed throughout my career.
 
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
