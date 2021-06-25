@@ -33,7 +33,27 @@ header nav ul {
 header nav ul li {
     margin: 20px 20px ;
 }
+
+header a {
+    color: white;
+    text-decoration: none;
+}
 /* HEADER STYLE END*/
+
+section { 
+    display: flex;
+    border: 3px solid teal;
+    margin: 20px 50px;
+}
+
+.container {
+    margin: 20px;
+    width: 150px;
+    padding-right: 10px;
+    border-right: 3px solid teal;
+}
+
+
 
 /* BANNER STYLE START */
 .banner-container{
@@ -56,28 +76,42 @@ header nav ul li {
 /* BANNER STYLE END */
 
 /* ABOUT ME STYLE START */
-section { 
-    display: flex;
-    border: 3px solid teal;
-    margin: 20px;
-}
-
-.container {
-    margin: 20px;
-    padding-right: 10px;
-    border-right: 3px solid teal;
-}
-
-article {
-    margin: 40px 20px;
+#about-me p {
+    display: block;
+    font-size: 22px;
+    margin: 30px;
+    flex: 1;
 }
 /* ABOUT ME STYLE END */
 
 /* WORK STYLE START */
+.work-container {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-container img {
+    max-width:  200px;
+}
 /* WORK STYLE END */
 
 /* CONTACT STYLE START */
+.contact-links ul{
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
 /* CONTACT STYLE END */
 
 /* RESUME STYLE START */
+.resume img {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
 /* RESUME STYLE END */
