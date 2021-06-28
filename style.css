@@ -37,6 +37,7 @@ header nav ul li {
 header a {
     color: white;
     text-decoration: none;
+    font-size: 24px;
 }
 /* HEADER STYLE END*/
 
@@ -73,6 +74,12 @@ section {
     bottom: 0;
     right: 0;
 }
+
+.banner-container img {
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* BANNER STYLE END */
 
 /* ABOUT ME STYLE START */
@@ -87,15 +94,33 @@ section {
 /* WORK STYLE START */
 .work-container {
     width: 100%;
-    margin: 5px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 20px;
 }
 
-.work-container img {
-    max-width:  200px;
+.top-site-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+.mid-sites-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.mid-sites {
+    width: 300px;
+    height: 200px;
+}
+
+.top-site {
+    width: 600px;
+}
+
 /* WORK STYLE END */
 
 /* CONTACT STYLE START */
