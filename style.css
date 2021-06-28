@@ -24,17 +24,14 @@ header h1 {
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     list-style: none;
 }
 
 header nav ul li {
-    margin: 20px 20px ;
+    margin: 20px;
 }
 
-header a {
+header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 24px;
@@ -107,30 +104,60 @@ section {
     justify-content: center;
     text-align: center;
 }
+
 .mid-sites-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.mid-sites {
-    width: 300px;
-    height: 200px;
-}
 
 .top-site {
     width: 600px;
+    border: 4px solid teal;
+    border-radius: 15%;
+} 
+
+.mid-sites {
+    width: 300px;
+    height: 200px;
+    border: 4px solid teal;
+    border-radius: 15%;
+}
+
+.work-container article {
+    position: relative;
+}
+
+.work-container article div {
+    position: absolute;
+    top: 75px;
+    border: 2px solid teal;
+    background-color: teal;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    
 }
 
 /* WORK STYLE END */
 
 /* CONTACT STYLE START */
+
 .contact-links ul{
-    width: 100%;
-    margin: 50px;
+    margin: 50px 100px;
     display: flex;
+    font-size: 24px;
+    list-style: none;
     flex-wrap: wrap;
-    justify-content: space-between
 }
+
+.contact-links ul li a{
+    margin: 0 25px;
+    text-decoration: none;
+}
+
+
 /* CONTACT STYLE END */
 
 /* RESUME STYLE START */
