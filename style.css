@@ -188,6 +188,8 @@ section {
 }
 
 iframe {
+    width: 800px;
+    height: 1000px;
     padding: 20px;
     margin: auto;
 }
