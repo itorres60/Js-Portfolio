@@ -79,16 +79,17 @@ section {
     background-image: url(Assets/Images/banner.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-.banner-container h1 {
+.title {
     background: teal;
     color: white;
     margin: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    padding: 5px;
+    height: fit-content;
+    align-self: flex-end;
 }
 
 .banner-container img {
@@ -186,7 +187,7 @@ section {
     margin: auto;
 }
 
-iframe {
+embed {
     padding: 20px;
     margin: auto;
 }
@@ -194,6 +195,22 @@ iframe {
 
 
 @media  screen and (max-width: 980px) {
+    img {
+        width: 20%;
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .banner-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title {
+        align-self: center;
+        margin-bottom: 30px;
+    }
+        
     .body-container {
         padding: 20px;
     }
@@ -234,11 +251,13 @@ iframe {
     }
 
     .contact-links ul {
+        margin: auto;
+        margin: 20px;
         flex-direction: column;
         text-align: center;
     }
 
-    iframe {
+    embed {
         width: 100%;
     }
 
