@@ -209,6 +209,7 @@ embed {
     .title {
         align-self: center;
         margin-bottom: 30px;
+        max-width: 200px;
     }
         
     .body-container {
