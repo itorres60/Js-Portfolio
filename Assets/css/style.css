@@ -285,12 +285,15 @@ iframe {
 
     .contact-links ul {
         margin: auto;
-        margin: 20px;
+        margin: 20px 0px;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
     .contact-links li {
         margin: 15px;
+        font-size: medium;
+
     }
 
     iframe {
