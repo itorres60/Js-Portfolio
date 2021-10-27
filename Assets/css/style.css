@@ -108,7 +108,6 @@ section {
     display: block;
     font-size: 22px;
     margin: 30px;
-    flex: 1;
     line-height: 1.5;
     background-color: #F1F1F1;
     padding: 40px;
@@ -262,6 +261,7 @@ iframe {
         overflow: auto;
         font-size:medium;
         text-align: center;
+        padding: 15px;
     }
 
     section {
