@@ -250,6 +250,7 @@ iframe {
     }
     .container {
         margin: auto;
+        padding: 20px;
         text-align: center;
         border-right: none;
         border-bottom: 3px solid teal;
@@ -282,6 +283,7 @@ iframe {
       margin-top: 20px;
       width: 100%;
       justify-content: center;
+      text-align: center;
     }
   
     header nav ul li a {
