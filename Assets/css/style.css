@@ -76,7 +76,7 @@ section {
 .banner-container{
     border: solid 2px black;
     height: 200px;
-    background-image: url('Assets/Images/banner.png');
+    /* background-image: url('/Assets/Images/banner.png'); */
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
